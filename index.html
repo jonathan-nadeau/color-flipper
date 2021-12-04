@@ -12,8 +12,20 @@
     <title>Color-Flipper</title>
   </head>
   <body>
-    <header>
-      <h1>COLOR-FLIPPER</h1>
+    <header class="flex flex-row justify-content-center align-items-end h-25p">
+      <h1 class="text-3rem p-2rem bg-dark text-shadow border-radius-10"></h1>
     </header>
+    <main class="flex flex-col justify-content-center align-items-center h-75p">
+      <p id="backgroundTitle" class="text-3rem mb-5rem bg-dark text-shadow border-radius-10 p-2rem">
+        Random color:
+      </p>
+      <button
+        onclick="generateNewColors()"
+        class="text-2rem button bg-dark text-shadow border-radius-10 p-2rem"
+      >
+        Click me
+      </button>
+    </main>
+    <script src="./js/app.js"></script>
   </body>
 </html>
